@@ -12,5 +12,9 @@ namespace OOPsConcepts
         {
             Console.WriteLine("Rohan Shewale");
         }
+        public void PrintMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }

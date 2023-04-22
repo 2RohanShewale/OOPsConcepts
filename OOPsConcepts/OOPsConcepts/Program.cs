@@ -12,6 +12,7 @@ namespace OOPsConcepts
         {
             ClassName name = new ClassName();
             name.PrintName();
+            name.PrintMessage("This is a parameterized method");
             //To Hold the screen until the key is pressed
             Console.ReadKey();
         }
