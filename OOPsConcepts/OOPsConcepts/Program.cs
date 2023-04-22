@@ -11,8 +11,9 @@ namespace OOPsConcepts
         static void Main(string[] args)
         {
             ClassName name = new ClassName();
+            Constructor constructor = new Constructor();
             name.PrintName();
-            name.PrintMessage("This is a parameterized method");
+            name.PrintMessage("This is a parameterized method"); 
             //To Hold the screen until the key is pressed
             Console.ReadKey();
         }
