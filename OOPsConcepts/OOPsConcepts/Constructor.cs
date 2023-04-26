@@ -12,5 +12,9 @@ namespace OOPsConcepts
         {
             Console.WriteLine("This is constructor");
         }
+        public Constructor(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
