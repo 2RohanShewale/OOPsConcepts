@@ -10,7 +10,7 @@ namespace OOPsConcepts
     {
         static void Main(string[] args)
         {
-            ClassName name = new ClassName();
+            /*ClassName name = new ClassName();
             name.WithoutImplementationMethod();
             Constructor constructor = new Constructor("This is Parameterized Construction");
             name.PrintName();
@@ -24,7 +24,13 @@ namespace OOPsConcepts
 
             //ValueType
             ValueType valueType = new ValueType();
-            valueType.ValueTypeMethod();
+            valueType.ValueTypeMethod();*/
+
+            //Reference Type
+            ReferenceType type = new ReferenceType();
+            int value = 5;
+            type.ReferenceTypeMethod(ref value);
+            Console.WriteLine(value);
 
             //To Hold the screen until the key is pressed
             Console.ReadKey();
