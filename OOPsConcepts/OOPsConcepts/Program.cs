@@ -24,13 +24,22 @@ namespace OOPsConcepts
 
             //ValueType
             ValueType valueType = new ValueType();
-            valueType.ValueTypeMethod();*/
+            valueType.ValueTypeMethod();
 
             //Reference Type
             ReferenceType type = new ReferenceType();
             int value = 5;
             type.ReferenceTypeMethod(ref value);
             Console.WriteLine(value);
+            */
+
+            EncapsulationDemo encapsulation = new EncapsulationDemo();
+            encapsulation.Name = "Test";
+            Console.WriteLine(encapsulation.Name);
+            encapsulation.Name = "Changed Name";
+            Console.WriteLine(encapsulation.Name);
+            encapsulation.RollNo = 45;
+            Console.WriteLine(encapsulation.RollNo);
 
             //To Hold the screen until the key is pressed
             Console.ReadKey();
