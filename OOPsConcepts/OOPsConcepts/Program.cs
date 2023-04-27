@@ -39,12 +39,17 @@ namespace OOPsConcepts
             Console.WriteLine(encapsulation.Name);
             encapsulation.RollNo = 45;
             Console.WriteLine(encapsulation.RollNo);
-            */
 
             OverLoading obj = new OverLoading();
             obj.MethodOne();
             obj.MethodOne(4);
             obj.MethodOne(4, "Four");
+            */
+
+            DerivedClass obj_one = new DerivedClass();
+            obj_one.PrintMessage();
+            BaseClass obj_two = new DerivedClass();
+            obj_two.PrintMessage();
 
 
             //To Hold the screen until the key is pressed
