@@ -31,7 +31,6 @@ namespace OOPsConcepts
             int value = 5;
             type.ReferenceTypeMethod(ref value);
             Console.WriteLine(value);
-            */
 
             EncapsulationDemo encapsulation = new EncapsulationDemo();
             encapsulation.Name = "Test";
@@ -40,6 +39,13 @@ namespace OOPsConcepts
             Console.WriteLine(encapsulation.Name);
             encapsulation.RollNo = 45;
             Console.WriteLine(encapsulation.RollNo);
+            */
+
+            OverLoading obj = new OverLoading();
+            obj.MethodOne();
+            obj.MethodOne(4);
+            obj.MethodOne(4, "Four");
+
 
             //To Hold the screen until the key is pressed
             Console.ReadKey();
