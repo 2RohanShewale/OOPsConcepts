@@ -22,6 +22,10 @@ namespace OOPsConcepts
             childClass.PrintMessage();
             childParent.PrintMessage();
 
+            //ValueType
+            ValueType valueType = new ValueType();
+            valueType.ValueTypeMethod();
+
             //To Hold the screen until the key is pressed
             Console.ReadKey();
         }

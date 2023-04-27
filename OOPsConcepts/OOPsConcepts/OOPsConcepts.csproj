@@ -45,10 +45,12 @@
   <ItemGroup>
     <Compile Include="ClassName.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="EnumDemo.cs" />
     <Compile Include="InterfaceDemo.cs" />
     <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
