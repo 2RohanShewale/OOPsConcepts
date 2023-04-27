@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPsConcepts
 {
-    public class ClassName
+    public class ClassName:InterfaceDemo
     {
 
         public void PrintName()
@@ -16,6 +16,11 @@ namespace OOPsConcepts
         public void PrintMessage(string message)
         {
             Console.WriteLine(message);
+        }
+
+        public void WithoutImplementationMethod()
+        {
+            Console.WriteLine("This is ClassName.cs");
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPsConcepts
 {
-    public class Constructor
+    public class Constructor:InterfaceDemo
     {
         public Constructor() 
         {
@@ -15,6 +15,11 @@ namespace OOPsConcepts
         public Constructor(string message)
         {
             Console.WriteLine(message);
+        }
+
+        public void WithoutImplementationMethod()
+        {
+            Console.WriteLine("This is Constructor.cs");
         }
     }
 }

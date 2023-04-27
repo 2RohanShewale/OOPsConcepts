@@ -11,6 +11,7 @@ namespace OOPsConcepts
         static void Main(string[] args)
         {
             ClassName name = new ClassName();
+            name.WithoutImplementationMethod();
             Constructor constructor = new Constructor("This is Parameterized Construction");
             name.PrintName();
             name.PrintMessage("This is a parameterized method"); 
