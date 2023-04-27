@@ -14,7 +14,13 @@ namespace OOPsConcepts
             name.WithoutImplementationMethod();
             Constructor constructor = new Constructor("This is Parameterized Construction");
             name.PrintName();
-            name.PrintMessage("This is a parameterized method"); 
+            name.PrintMessage("This is a parameterized method");
+
+            //Inhetitence
+            ChildClass childClass = new ChildClass();
+            ParentClass childParent = new ChildClass();
+            childClass.PrintMessage();
+            childParent.PrintMessage();
 
             //To Hold the screen until the key is pressed
             Console.ReadKey();
